@@ -49,3 +49,9 @@ fieldset {
 legend {
   padding: 0 8px;
 }
+
+#password-length {
+  width: 24px;
+  display: inline-block;
+  text-align: center;
+}

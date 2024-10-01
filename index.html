@@ -8,13 +8,13 @@
   </head>
   <body>
     <main>
-      <p>dagafho</p>
-      <button>パスワードを生成</button>
+      <p id="result">dagafho</p>
+      <button id="btn">パスワードを生成</button>
       <fieldset>
         <legend>オプション</legend>
         <label>
-          長さ(8)
-          <input type="range" />
+          長さ(<span id="password-length">8</span>)
+          <input type="range" id="slider" min="8" max="24" />
         </label>
         <label>
           数字
